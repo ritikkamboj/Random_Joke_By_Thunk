@@ -1,8 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import JokeComponent from "./JokeComponent";
 
 function App() {
-  return <div>Jai shree ram</div>;
+  return (
+    <div>
+      <JokeComponent />
+    </div>
+  );
 }
 
 export default App;
