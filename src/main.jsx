@@ -9,6 +9,7 @@ import JokeReducer from "./JokeComponent.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider store={store}>
+      <App />
       <JokeReducer />
     </Provider>
   </StrictMode>

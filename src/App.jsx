@@ -3,11 +3,7 @@ import "./App.css";
 import JokeComponent from "./JokeComponent";
 
 function App() {
-  return (
-    <div>
-      <JokeComponent />
-    </div>
-  );
+  return <div>Jai Shree Ram</div>;
 }
 
 export default App;

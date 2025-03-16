@@ -9,7 +9,7 @@ function JokeComponent() {
   return (
     <div>
       <h1>To Fetch a Joke/Fresh Joke click on button !</h1>
-      <button onClick={() => dispatch(fetchJoke)}>
+      <button onClick={() => dispatch(fetchJoke())}>
         {loading ? "loading..." : "Get a Joke Now !"}
       </button>
       {error && <h3>{error}</h3>}

@@ -16,6 +16,8 @@ const jokeReducer = (state = initialState, action) => {
             return { ...state, loading: false, joke: action.payload, error: "" }
         case "FETCH_JOKE_ERROR":
             return { ...state, loading: false, joke: "", error: action.payload }
+        default:
+            return state;
     }
 
 }
